@@ -346,10 +346,10 @@ strong{
     box-shadow: 0px 0px 3px rgb(72, 72, 72);
    
 }
-.fa-github,.fa-twitter{
+.fa-github,.fa-linkedin{
     transition: 1s all;
 }
-.fa-twitter:hover,.fa-github:hover{
+.fa-linkedin:hover,.fa-github:hover{
     color: #181818;
     background-color: white;
 }
