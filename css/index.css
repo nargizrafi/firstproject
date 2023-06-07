@@ -145,7 +145,22 @@ nav ul li a:hover{
   'GRAD' 0,
   'opsz' 48
 }
-
+.material-symbols-rounded1{
+    width: 52px;
+    height: 50px;
+    background-image: url(https://wpriverthemes.com/landing/gridx-html/assets/images/icon.svg);
+    background-size: cover;
+    position: absolute;
+    font-size: 2.9em;
+    top: -13px;
+    right: 10px; 
+    transition: all ease-in-out 1s;
+    transition: 1s all;
+}
+.top-left-top:hover .material-symbols-rounded1{
+    transform: rotate(180deg);
+   
+}
 .top-right{
     width: 550px;
     height: 300px;
@@ -161,7 +176,7 @@ nav ul li a:hover{
     height: 40px;
     border-radius: 30px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     background-color: #181818;
     box-shadow: 0px 0px 3px rgb(72, 72, 72);
@@ -536,12 +551,15 @@ footer{
         justify-content: center;
     }
     .top-left{
-        height: 470px;
+        height: 490px;
     }
     .top-left-top{
         flex-direction: column;
         align-items: center;
 
+    }
+    .text{
+        padding-left: 15px;
     }
     .top-right{
         height: 130vh;

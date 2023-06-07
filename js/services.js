@@ -1,36 +1,43 @@
 $('.top-right-bottom-left').mouseenter(function () {
     $('.r2').css({
-        color: 'white'
+        transform: 'rotate(180deg)',
+        transition: 'all ease-in-out 1s'
     })
 
 })
 $('.top-right-bottom-left').mouseleave(function () {
     $('.r2').css({
-        color: '#8B8B8B'
+        transform: 'rotate(0deg)',
+        transition: 'all ease-in-out 1s'
     })
 })
 
+
 $('.middle-right').mouseenter(function () {
     $('.r6').css({
-        color: 'white'
+        transform: 'rotate(180deg)',
+        transition: 'all ease-in-out 1s'
     })
 
 })
 $('.middle-right').mouseleave(function () {
     $('.r6').css({
-        color: '#8B8B8B'
+        transform: 'rotate(0deg)',
+        transition: 'all ease-in-out 1s'
     })
 })
 
 $('.bottom-right').mouseenter(function () {
     $('.r7').css({
-        color: 'white'
+        transform: 'rotate(180deg)',
+        transition: 'all ease-in-out 1s'
     })
 
 })
 $('.bottom-right').mouseleave(function () {
     $('.r7').css({
-        color: '#8B8B8B'
+        transform: 'rotate(0deg)',
+        transition: 'all ease-in-out 1s'
     })
 })
 
@@ -44,6 +51,8 @@ if (nightMode == true) {
         $('body').css({
             backgroundColor: '#F7F9FC'
         })
+        $('.rr').removeAttr('src')
+        $('.rr').attr('src','./images/icon2.svg')
         $('div').css({
             backgroundColor: 'white',
             borderRadius: '30px'
@@ -227,6 +236,8 @@ if (nightMode == true) {
                 $('body').css({
                     backgroundColor: '#0F0F0F'
                 })
+                $('.rr').removeAttr('src')
+                $('.rr').attr('src','./images/icon.svg')
                 $('div').css({
                     backgroundColor: '',
                     borderRadius: '30px'
