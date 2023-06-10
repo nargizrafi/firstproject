@@ -502,7 +502,7 @@ footer{
         flex-direction: column;
       
         justify-content: center;
-        margin-top: 20vh;
+        margin-top: 3vh;
     }
     .top,.middle,.bottom{
         
@@ -535,6 +535,9 @@ footer{
     }
     .miniCon>nav,.btn{
         display: none;
+    }
+    .div1{
+        width: 30%;
     }
     .miniCon{
         align-items: center;
