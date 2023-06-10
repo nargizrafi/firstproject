@@ -204,7 +204,7 @@ h3{
     display: flex;
     flex-direction: column;
     padding: 90px 0;
-    height: 480vh;
+   
     align-items: center;
     gap: 140px;
 }
@@ -384,14 +384,12 @@ h4{
         top: -5px;
         display: block;
     }
-    .container{
-        height: 740vh;
-    }
+   
     .bottom{
-        height: 650vh;
+        height: 99%;
     }
     .top>h3{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .outside>h2{
         font-size: 0.6em;
@@ -404,30 +402,40 @@ h4{
     }
     .left{
         width: 100%;
+        height: 70%;
     }
     .right{
         width: 100%;
+        height: 30%;
     }
     .form,.recent,.categories,.tagdiv{
         width: 99%;
     }
 }
-   @media  screen and (max-width:740px) {
-        .container{
-            height: 650vh;
+
+    @media screen and (max-width:300px){
+        .nav1>ul{
+         gap: 10px;
+         width: 90%;
         }
-        .bottom{
-            height: 500vh;
+        .miniCon>.logo{
+            display: none;
         }
-    }
-    @media  screen and (min-width:740px) and (max-width:880px) {
-        .container{
-            height: 680vh;
+        .images2{
+            width: 35px;
+            height: 35px;
         }
-        .bottom{
-            height: 530vh;
+        form{
+            width: 100%;
+            justify-content: center;
         }
-    }
+        form>button{
+            width: 10%;
+        }
+        .tagdiv{
+            height: 350px;
+        }
+     }
 .fa-toggle-on {
     font-size: 3em;
     color: white;

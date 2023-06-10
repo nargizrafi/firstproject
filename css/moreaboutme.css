@@ -471,6 +471,15 @@ footer {
         padding: 10px 100px ;
     }
 }
+@media screen and (max-width:300px){
+    .miniCon>.logo{
+        display: none;
+    }
+    .nav1>ul{
+     gap: 10px;
+     width: 90%;
+    }
+ }
 .fa-toggle-on {
     font-size: 3em;
     color: white;
