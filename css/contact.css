@@ -154,7 +154,7 @@ footer{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 130vh;
+   
 
     
 }
@@ -276,7 +276,7 @@ button:hover{
     width: 40px;
     height: 82px;
 }
-@media screen and (max-width:860px) {
+@media screen and (max-width:960px) {
    
     .miniCon>nav,.btn{
         display: none;
@@ -291,17 +291,48 @@ button:hover{
         flex-direction: column;
         align-items: center;
         gap: 30px;
-        height: 230vh;
+        width: 99%;
     }
     .right,.left{
         width: 99%;
 
+    }
+    form,input,textarea,button{
+        width: 99%;
     }
     .left{
         padding-left: 20px;
     }
     .pic{
         right: 20px;
+    }
+}
+
+@media screen and (min-width:961px) and (max-width:1140px) {
+   
+    
+    header{
+        width: 90%;
+    }
+    .container{
+        width: 99%;
+        gap: 10px;
+    }
+    .right{
+        width: 60%;
+
+    }
+    .left{
+        width: 32%;
+    }
+    form{
+        width: 99%;
+    }
+    input,button,textarea{
+        width: 99%;
+    }
+    .pic{
+        right: 10px;
     }
 }
 .fa-toggle-on{
