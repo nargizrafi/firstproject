@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-   
+  
 }
 body{
     background-color: #0F0F0F;
@@ -17,6 +17,7 @@ header{
 display: flex;
 align-items: center;
 justify-content: center;
+margin-bottom: 10px;
 }
 .miniCon{
     width: 90%;
@@ -71,16 +72,17 @@ nav ul li a:hover{
     padding: 90px 0px;
     background-color: #0F0F0F;
     width: 100%;
-    height: 220vh;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 30px;
+  
 }
 .top{
     width: 92%;
-    height: 400px;
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -154,12 +156,12 @@ nav ul li a:hover{
     font-size: 2.9em;
     top: -13px;
     right: 10px; 
-    transition: all ease-in-out 1s;
+ 
     transition: 1s all;
 }
 .top-left-top:hover .material-symbols-rounded1{
-    transform: rotate(180deg);
-   
+    transform: rotate(180deg);  
+     transition: all ease-in-out 1s;
 }
 .top-right{
     width: 550px;
@@ -266,7 +268,7 @@ strong{
 }
 .middle{
     width: 92%;
-    height: 380px;
+   
     display: flex;
     justify-content: center;
     gap: 14px;
@@ -370,7 +372,7 @@ strong{
 }
 .bottom{
     width: 92%;
-    height: 240px;
+   
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -498,12 +500,12 @@ footer{
 @media screen and (max-width:1140px) {
     .container{
         flex-direction: column;
-        height: 350vh;
+      
         justify-content: center;
         margin-top: 20vh;
     }
     .top,.middle,.bottom{
-        height: 130vh;
+        
         width: 100%;
         justify-content: center;
         flex-direction: column;
@@ -545,13 +547,12 @@ footer{
 }
 @media screen and (max-width:580px) {
     .container{
-        margin-top: 30vh;
         flex-direction: column;
-        height: 420vh;
+      
         justify-content: center;
     }
     .top-left{
-        height: 490px;
+        height: 500px;
     }
     .top-left-top{
         flex-direction: column;
@@ -562,7 +563,7 @@ footer{
         padding-left: 15px;
     }
     .top-right{
-        height: 130vh;
+       margin-bottom: 200px;
     }
     .top-right-bottom{
         flex-direction: column;
