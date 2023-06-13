@@ -274,6 +274,10 @@ if (nightMode == true) {
         $('.bottomsp').css({
             color: 'black'
         })
+        $('.top-left-bottom').css({
+            backgroundColor: 'transparent'
+        })
+        
         $('.material-symbols-outlined').css({
             color: '#3E5CE3'
         })
